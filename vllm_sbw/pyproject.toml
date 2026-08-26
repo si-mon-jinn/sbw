@@ -1,0 +1,43 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "vllm-sbw"
+version = "1.0.0"
+description = "SBW watermarking logits processor for vLLM"
+readme = "README.md"
+license = "EUPL-1.2"
+authors = [
+    { name = "Simone Ceppi" }
+]
+requires-python = ">=3.9"
+keywords = ["watermark", "llm", "vllm", "inference", "generation"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: European Union Public Licence 1.2 (EUPL 1.2)",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = [
+    "sbw>=1.0.0",
+    "vllm>=0.8.0",
+    "torch>=2.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0"]
+
+[project.urls]
+Homepage = "https://github.com/si-mon-jinn/sbw"
+Documentation = "https://github.com/si-mon-jinn/sbw#readme"
+Repository = "https://github.com/si-mon-jinn/sbw"
+
+[tool.hatch.build.targets.wheel]
+packages = ["vllm_sbw"]

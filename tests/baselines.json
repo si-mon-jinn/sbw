@@ -1,0 +1,32 @@
+{
+  "The quick brown fox jumps over the lazy dog.": {
+    "z_score": -0.3333333333333333,
+    "green_fraction": 0.4444444444444444,
+    "num_tokens_scored": 9,
+    "num_green_tokens": 4
+  },
+  "Machine learning models can generate human-like text.": {
+    "z_score": 0.0,
+    "green_fraction": 0.5,
+    "num_tokens_scored": 8,
+    "num_green_tokens": 4
+  },
+  "Python is a popular programming language for data science.": {
+    "z_score": 1.0,
+    "green_fraction": 0.6666666666666666,
+    "num_tokens_scored": 9,
+    "num_green_tokens": 6
+  },
+  "Artificial intelligence is transforming many industries.": {
+    "z_score": 0.3779644730092272,
+    "green_fraction": 0.5714285714285714,
+    "num_tokens_scored": 7,
+    "num_green_tokens": 4
+  },
+  "The watermark detection algorithm uses statistical analysis.": {
+    "z_score": -0.3779644730092272,
+    "green_fraction": 0.42857142857142855,
+    "num_tokens_scored": 7,
+    "num_green_tokens": 3
+  }
+}
