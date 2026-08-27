@@ -1,7 +1,5 @@
 # SBW — Stateless Bernoulli Watermarking
 
-[![PyPI - sbw](https://img.shields.io/pypi/v/sbw)](https://pypi.org/project/sbw/)
-[![PyPI - vllm-sbw](https://img.shields.io/pypi/v/vllm-sbw)](https://pypi.org/project/vllm-sbw/)
 [![License](https://img.shields.io/pypi/l/sbw)](https://opensource.org/licenses/EUPL-1.2)
 [![Python](https://img.shields.io/pypi/pyversions/sbw)](https://pypi.org/project/sbw/)
 
@@ -9,8 +7,8 @@ Fast, efficient watermarking for LLM-generated text. This repository contains tw
 
 | Package | PyPI | Description |
 |---------|------|-------------|
-| [sbw](sbw/) | `pip install sbw` | Watermark detection library |
-| [vllm-sbw](vllm_sbw/) | `pip install vllm-sbw` | vLLM integration for watermark injection |
+| [sbw](sbw/) | [![PyPI](https://img.shields.io/pypi/v/sbw)](https://pypi.org/project/sbw/) | Watermark detection library |
+| [vllm-sbw](vllm_sbw/) | [![PyPI](https://img.shields.io/pypi/v/vllm-sbw)](https://pypi.org/project/vllm-sbw/) | vLLM integration for watermark injection |
 
 ## Overview
 
